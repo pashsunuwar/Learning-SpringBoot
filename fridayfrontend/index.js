@@ -33,3 +33,8 @@
     .catch(function (error) {
       console.log("Request failed", error);
     });
+
+    let e = document.getElementById("ClientMenu").value
+    let strUser = e.options[e.selectedIndex].value;
+    e = document.getElementById("ClientMenu");
+    strUser = e.options[e.selectedIndex].text;
